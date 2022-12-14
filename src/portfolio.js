@@ -52,9 +52,9 @@ const skillsSection = {
     emoji(
       "⚡ Just recently completed the Lighthouse Labs bootcamp"
     ),
-    emoji("⚡ Currently powering through Colt Steel Udemy bootcamp and preparing for the YelpCamp project"),
+    emoji("⚡ Completed Colt Steele Udemy Bootcamp"),
     emoji(
-      "⚡ Next on the list: Freecodecamp certifications"
+      "⚡ Next on the list: Crypto-tracker project"
     )
   ],
 
@@ -124,6 +124,13 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
+      schoolName: "The Web Development Bootcamp 2022 - Udemy",
+      logo: require("./assets/images/udemy.png"),
+      subHeader: "Colt Steele Web Development Bootcamp",
+      duration: "June 2022 - August 2022",
+      desc: "Full-stack web development containing more than 60 hours of video content and the Yelpcamp final project",
+    },
+    {
       schoolName: "Lighthouse Labs",
       logo: require("./assets/images/lighthouselabs.jpeg"),
       subHeader: "12 - week Web Development Bootcamp",
@@ -142,7 +149,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -154,7 +161,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "75%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
