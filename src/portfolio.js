@@ -220,18 +220,18 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/landing.png"),
+      projectName: "YelpCamp",
+      projectDesc: "Designed and implemented YelpCamp (a Yelp style website for campsites) that supports user log in, posting review and comments, and editing previous submissions. Implemented MongoDB infrastructure to store reviews/comments data and relevant information associated with users and campsites.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://github.com/Rickwu93/YelpCamp"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
