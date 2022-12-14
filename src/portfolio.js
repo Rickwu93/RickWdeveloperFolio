@@ -204,17 +204,17 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME PROJECTS I WORKED ON IN LIGHTHOUSE LABS",
+  title: "Piggy Financial",
+  subtitle: "",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/BudgetPage.png"),
+      projectName: "Piggy Financial",
+      projectDesc: "Piggy Financial is an app that aims to help users track their financial goals. With a primary focus on vacation",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://github.com/Rickwu93/Piggy-Financial"
         }
         //  you can add extra buttons here.
       ]
