@@ -222,12 +222,24 @@ const bigProjects = {
     {
       image: require("./assets/images/landing.png"),
       projectName: "YelpCamp",
-      projectDesc: "Designed and implemented YelpCamp (a Yelp style website for campsites) that supports user log in, posting review and comments, and editing previous submissions. Implemented MongoDB infrastructure to store reviews/comments data and relevant information associated with users and campsites.",
+      projectDesc: "YelpCamp, a camping website that supports camp creation, user log ins, review posting and an interactive map.",
       footerLink: [
         {
           name: "Visit Website",
           url: "https://github.com/Rickwu93/YelpCamp"
         }
+      ]
+    },
+    {
+      image: require("./assets/images/s1.png"),
+      projectName: "Netflix-clone",
+      projectDesc: "Netflix clone that features IMDB APIs and trailer previews",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://netflix-clone-613e9.web.app/"
+        }
+        //  you can add extra buttons here.
       ]
     }
   ],
