@@ -54,7 +54,7 @@ const skillsSection = {
     ),
     emoji("⚡ Completed Colt Steele Udemy Bootcamp"),
     emoji(
-      "⚡ Next on the list: Crypto-tracker project"
+      "⚡ Next on the list: Crypto-tracker project and more leetcode"
     )
   ],
 
