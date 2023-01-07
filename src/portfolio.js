@@ -54,7 +54,7 @@ const skillsSection = {
     ),
     emoji("⚡ Completed Colt Steele Udemy Bootcamp"),
     emoji(
-      "⚡ Next on the list: Crypto-tracker project and more leetcode"
+      "⚡ Just finished an openai dev bot! Check it out https://chat-gpt-r7hcrmjr6-rickwu93.vercel.app/"
     )
   ],
 
@@ -227,6 +227,18 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/bot1.png"),
+      projectName: "chatGPT-js",
+      projectDesc: "A bot using openai api to help with everyday coding problems and general searches. You can even paste code in for the bot to explain what the it does.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/Rickwu93/chatGPT-js",
+          github: "https://github.com/Rickwu93/chatGPT-js"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/landing.png"),
       projectName: "YelpCamp",
       projectDesc: "YelpCamp, a camping website that supports camp creation, user log ins, review posting and an interactive map.",
@@ -236,7 +248,7 @@ const bigProjects = {
           url: "https://github.com/Rickwu93/YelpCamp"
         }
       ]
-    },
+    },  
     {
       image: require("./assets/images/s1.png"),
       projectName: "Netflix-clone",
