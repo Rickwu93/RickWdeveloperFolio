@@ -233,7 +233,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://github.com/Rickwu93/chatGPT-js"
+          url: "https://chat-gpt-r7hcrmjr6-rickwu93.vercel.app/"
         }
       ]
     },
